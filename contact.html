@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphdon Tech University</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    
+        .success {
+            color: green;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo2.png" alt="Raphdon Tech University Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+       <h1>Contact Us</h1>
+    </section>
+
+    <!--Contact us page section-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31715.134951570195!2d7.5275656153293244!3d6.4719455835265824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a466f2e9edfb%3A0xc4bba9d32a4b082d!2sThinkers%20Corner%2C%20Enugu!5e0!3m2!1sen!2sng!4v1758474482399!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">       </iframe>
+    </section>
+            
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>No 1 Hillview Crescent Estate</h5>
+                            <p>Thinkers Corner, Enugu, Nigeria.</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+234 703 757 1701</h5>
+                            <p>Monday to Saturday, 9AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i> <span>
+                           <h5>raphaelodinaka13@gmail.com</h5>
+                            <p>Email Your Questions</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form id="contactForm" action="form-handler.php" method="post">
+                        <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                        <input type="email" id="email"  name="email"  placeholder="Enter Email Address" required>
+                        <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
+                        <textarea id="message" rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                    
+                    <div id="formMessage"></div>
+                </div>
+            </div>
+    </section>
+   
+
+    <!--Footer Section-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Raphdon Tech University is a leading institution dedicated to providing quality education and fostering innovation. Our mission is to empower<br> students with the skills and knowledge needed to excel in their careers and make a positive impact on society.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/nwamuta.odinakaraphael" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/Raphael114" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/raph_odi?igsh=b3QwdXFpMjBwNHk=" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nwamuta-raphael-a40242182/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Raphdon Tech University</p>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
