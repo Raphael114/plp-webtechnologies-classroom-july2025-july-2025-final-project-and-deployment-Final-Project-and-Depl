@@ -1,90 +1,135 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+Raphdon Tech University Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Raphdon Tech University is a modern educational website designed to showcase the institution’s mission, courses, facilities, campus life, and testimonials. The site provides prospective students with an engaging, informative, and user-friendly experience.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+🌐 Live Demo:   https://raphdon-tech-uni.vercel.app/
 
----
+Visit Raphdon Tech University
+ https://raphdon-tech-uni.vercel.app/
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+📖 Table of Contents
 
-Before you write any code, take time to plan:
+Features
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Tech Stack
 
-**Goal:** Show intentional structure and user journey across the site.
+Folder Structure
 
----
+Installation
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Usage
 
-Using your plan, begin building:
+Screenshots
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Contributing
 
-Each page should:
+License
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+✨ Features
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Responsive Design – Mobile-first layout using CSS and Google Fonts.
 
----
+Navigation Menu – Dynamic toggle menu powered by JavaScript.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Course Offerings – Categorized into Intermediate, Advanced, and Professional levels.
 
-Before deployment, refactor your project to follow production-friendly practices:
+Campus Showcase – Highlighting global campuses (London, New York, Washington).
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Facilities Section – World-class library, sports complex, and cafeteria.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Student Testimonials – Real feedback with star ratings.
 
----
+Call to Action – Promotes course enrollment globally.
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Social Media Integration – Links to Facebook, GitHub, Instagram, and LinkedIn.
 
-Once your project is complete, choose a method to **host your site online**.
+🛠 Tech Stack
 
-You can use:
+Frontend:
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+HTML5
 
-Deploy your project and confirm that:
+CSS3
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+JavaScript (ES6)
 
-**Goal:** Publish your work online and make it accessible to the world.
+External Libraries & Assets:
 
----
+Google Fonts
+ (Poppins, Open Sans, Noto Sans)
 
-## Deliverables
+Font Awesome
+ (Icons)
 
-1. A GitHub repository containing:
+📂 Folder Structure
+Raphdon-Tech-University/
+│── index.html
+│── about.html
+│── courses.html
+│── blog.html
+│── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   ├── logo2.png
+│   ├── london.png
+│   ├── newyork.png
+│   ├── washington.png
+│   ├── library.png
+│   ├── basketball.png
+│   ├── cafeteria.png
+│   ├── user1.jpg
+│   └── user2.jpg
+│
+└── README.md
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+⚙️ Installation
 
----
+Clone this repository:
 
-## Outcome
+git clone https://github.com/<your-username>/Raphdon-Tech-University.git
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+
+Navigate into the project folder:
+
+cd Raphdon-Tech-University
+
+
+Open index.html in your browser or use a local server (e.g., Live Server in VS Code).
+
+🚀 Usage
+
+Update the images folder with your own institution branding.
+
+Modify the about.html, courses.html, blog.html, and contact.html pages to reflect actual content.
+
+Deploy to Vercel
+, Netlify
+, or GitHub Pages
+ for public access.
+
+📸 Screenshots
+Home Page
+
+(Add actual screenshots of each section after capturing your site.)
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature-branch)
+
+Commit your changes
+
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify it for educational or personal projects.
